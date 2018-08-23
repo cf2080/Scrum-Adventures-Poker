@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E5"
+    tools:context=".tshirt.MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageButton
+        android:id="@+id/extraSmallButton"
+        android:layout_width="119dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <ImageButton
+        android:id="@+id/smallButton"
+        android:layout_width="117dp"
+        android:layout_height="94dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="56dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <ImageButton
+        android:id="@+id/mediumButton"
+        android:layout_width="123dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="44dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintStart_toStartOf="@+id/vertGuideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <ImageButton
+        android:id="@+id/largeButton"
+        android:layout_width="114dp"
+        android:layout_height="103dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintStart_toStartOf="@+id/vertGuideline1"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <ImageButton
+        android:id="@+id/extraLargeButton"
+        android:layout_width="126dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="back"
+        app:layout_constraintStart_toStartOf="@+id/vertGuideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <TextView
+        android:id="@+id/small"
+        android:layout_width="53dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:text="Small"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/smallButton"
+        app:layout_constraintTop_toTopOf="@+id/smallButton" />
+
+    <TextView
+        android:id="@+id/extrasmall"
+        android:layout_width="60dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="ExtraSmall"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/extraSmallButton" />
+
+    <TextView
+        android:id="@+id/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:text="Medium"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/vertGuideline2"
+        app:layout_constraintTop_toTopOf="@+id/mediumButton" />
+
+    <TextView
+        android:id="@+id/large"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:text="Large"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/largeButton"
+        app:layout_constraintTop_toTopOf="@+id/largeButton" />
+
+    <TextView
+        android:id="@+id/extralarge"
+        android:layout_width="69dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:text="ExtraLarge"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/extraLargeButton"
+        app:layout_constraintTop_toTopOf="@+id/extraLargeButton" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.285" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.57" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/vertGuideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.0"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/vertGuideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.33"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/vertGuideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.66"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/vertGuideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="1.0"/>
+</android.support.constraint.ConstraintLayout>

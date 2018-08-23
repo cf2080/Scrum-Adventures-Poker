@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E5"
+    tools:context=".tshirt.LargeActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/pokerHeadertextView2"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Large T-Shirt"
+        android:textColor="#2F56A3"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="76dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/tshirtView2"
+        android:layout_width="206dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1"
+        app:layout_constraintVertical_bias="0.375"
+        app:srcCompat="@drawable/tshirt" />
+
+    <TextView
+        android:id="@+id/textViewL"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="L"
+        android:textColor="#2F56A3"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tshirtView2"
+        app:layout_constraintEnd_toEndOf="@+id/tshirtView2"
+        app:layout_constraintStart_toStartOf="@+id/tshirtView2"
+        app:layout_constraintTop_toTopOf="@+id/tshirtView2"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="186dp"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="235dp"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="566dp"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="566dp"
+        app:layout_constraintGuide_percent="1.0" />
+
+</android.support.constraint.ConstraintLayout>

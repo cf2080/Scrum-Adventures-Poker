@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E5"
+    tools:context=".tshirt.MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageButton
+        android:id="@+id/extraSmallButton"
+        android:layout_width="118dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <ImageButton
+        android:id="@+id/smallButton"
+        android:layout_width="119dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <ImageButton
+        android:id="@+id/mediumButton"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <ImageButton
+        android:id="@+id/largeButton"
+        android:layout_width="117dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.486" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <ImageButton
+        android:id="@+id/extraLargeButton"
+        android:layout_width="120dp"
+        android:layout_height="98dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginStart="8dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/largeButton"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.885" />
+
+    <TextView
+        android:id="@+id/small"
+        android:layout_width="44dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Small"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/smallButton"
+        app:layout_constraintEnd_toEndOf="@+id/smallButton"
+        app:layout_constraintStart_toStartOf="@+id/smallButton"
+        app:layout_constraintTop_toTopOf="@+id/smallButton"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <TextView
+        android:id="@+id/extrasmall"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="ExtraSmall"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/extraSmallButton"
+        app:layout_constraintEnd_toEndOf="@+id/extraSmallButton"
+        app:layout_constraintStart_toStartOf="@+id/extraSmallButton"
+        app:layout_constraintTop_toTopOf="@+id/extraSmallButton" />
+
+    <TextView
+        android:id="@+id/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Medium"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mediumButton"
+        app:layout_constraintEnd_toEndOf="@+id/mediumButton"
+        app:layout_constraintStart_toStartOf="@+id/mediumButton"
+        app:layout_constraintTop_toTopOf="@+id/mediumButton" />
+
+    <TextView
+        android:id="@+id/large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Large"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/largeButton"
+        app:layout_constraintEnd_toEndOf="@+id/largeButton"
+        app:layout_constraintStart_toStartOf="@+id/largeButton"
+        app:layout_constraintTop_toTopOf="@+id/largeButton" />
+
+    <TextView
+        android:id="@+id/extralarge"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="ExtraLarge"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/extraLargeButton"
+        app:layout_constraintEnd_toEndOf="@+id/extraLargeButton"
+        app:layout_constraintStart_toStartOf="@+id/extraLargeButton"
+        app:layout_constraintTop_toTopOf="@+id/extraLargeButton" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="186dp"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="566dp"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.35"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.65"/>
+</android.support.constraint.ConstraintLayout>

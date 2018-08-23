@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E5"
+    tools:context=".Homepage"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="151dp"
+        android:layout_height="144dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/poker_chip"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.588" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <TextView
+        android:id="@+id/chip"
+        android:layout_width="75dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Chip Size"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="154dp"
+        android:layout_height="143dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/grey_tshirt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.575" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+    <TextView
+        android:id="@+id/tshirt"
+        android:layout_width="59dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="T-Shirt"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="@+id/button1"
+        app:layout_constraintStart_toStartOf="@+id/button1"
+        app:layout_constraintTop_toTopOf="@+id/button1" />
+
+    <ImageButton
+        android:id="@+id/About"
+        android:layout_width="147dp"
+        android:layout_height="134dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.4"
+        android:background="#E3E3E5"
+        android:scaleType="fitXY"
+        android:src="@drawable/sa_info"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <TextView
+        android:id="@+id/howtotextView3"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="How To Play"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/About"
+        app:layout_constraintEnd_toEndOf="@+id/About"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="@+id/About"
+        app:layout_constraintTop_toTopOf="@+id/About"
+        app:layout_constraintVertical_bias="0.313" /> <!--src(source)file from drawable folder which display an imagebutton-->
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="186dp"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="235dp"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="566dp"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.35"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.65"/><!--src(source)file from drawable folder which display an imagebutton-->
+
+
+</android.support.constraint.ConstraintLayout>

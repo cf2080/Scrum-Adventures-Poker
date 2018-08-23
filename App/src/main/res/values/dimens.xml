@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_half">4.6dp</dimen>
+    <dimen name="space">9.2dp</dimen>
+    <dimen name="space_x2">18.4dp</dimen>
+    <dimen name="space_x3">27.6dp</dimen>
+    <dimen name="space_x4">36.8dp</dimen>
+    <dimen name="space_x5">46dp</dimen>
+    <dimen name="space_x6">55.2dp</dimen>
+
+    <dimen name="txt_small">16.1sp</dimen>
+    <dimen name="txt_medium">18.4sp</dimen>
+    <dimen name="txt_large">27.6sp</dimen>
+</resources>
